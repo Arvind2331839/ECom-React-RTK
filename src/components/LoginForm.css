@@ -1,0 +1,86 @@
+.FormContainer{
+    background-color: rgb(204, 163, 242);
+    height: 70vh;
+    width: 30%; 
+    margin:70px auto;
+    border-radius: 5px;
+}
+.loginContainer{
+    display: grid;
+    width:75%;
+    margin: auto;
+}
+#login{
+margin: 15% 0% 5% 0%; 
+text-align: center;
+font-size: xx-large;
+}
+#email{
+    margin: 5% 0% 5% 0%;
+    padding: 1%;
+}
+#password{
+    margin: 0% 0% 10% 0%;
+    padding: 1%;
+}
+#btn{
+    margin: 10% auto 2% auto;
+    padding: 2%;
+    width: 50%;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(103, 174, 109);
+  }
+.input{
+    border-radius: 5px;
+    font-family: cursive;
+}
+#pass{
+    color: rgb(0, 0, 255);
+    margin: 5px auto;
+    cursor: pointer;
+}
+
+/* Animated button */
+html, body {
+    height: 100%;
+  }
+  
+  .wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    padding: 3% 15%;
+    font-size: large;
+    font-weight: bold;
+    font-family: cursive;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
+    background-color:rgb(113, 182, 113);
+   }
+  
+  .button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+  @media screen and (max-width: 480px) {
+    .FormContainer{
+      background-color: rgb(204, 163, 242);
+      height: 60vh;
+      width: 75%; 
+      margin:100px auto;
+      border-radius: 5px;
+  }
+  }

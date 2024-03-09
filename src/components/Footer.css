@@ -1,0 +1,25 @@
+
+  .content {
+    display: flex;
+    padding:10px 0px ;
+    /* min-height: 2%; */
+    width: 100%;
+    background: rgb(152, 122, 181);
+    position:fixed;
+    bottom: 0;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); 
+  
+}
+.inner-content{
+    display: flex;
+    margin:0px auto 0px auto ;
+    
+    display: flex;
+    justify-content: space-around;
+  
+}
+ p{
+    margin: 3px;
+    /* font-weight: bold; */
+   
+ }
